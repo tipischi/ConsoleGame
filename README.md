@@ -1,4 +1,4 @@
-Console Game in C#
+### Console Game in C#
 
 This is a simple turn-based console game written in C#.  
 The entire game runs inside a single `Program.cs` file.
