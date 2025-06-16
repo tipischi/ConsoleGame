@@ -4,16 +4,17 @@ class Program
 {
     static void Main()
     {
-        float playerhp = 100;
-        float enemyhp = 100;
-        float damageplayer = 0;
-        float damageenemy = 0;
-        Console.WriteLine("Damage Player:");
+        float playerHp = 100;
+        float enemyHp = 100;
+        float damagePlayer = 0;
+        float damageEnemy = 0;
+        float roundNumber = 0;
+        Console.WriteLine("Round " + roundNumber + ":");
         
-        damageplayer = float.Parse(Console.ReadLine());
+        damagePlayer = float.Parse(Console.ReadLine());
 
-        playerhp -= damageplayer;
+        playerHp -= damagePlayer;
         
-        Console.WriteLine(playerhp);
+        Console.WriteLine(playerHp);
     }
 }
